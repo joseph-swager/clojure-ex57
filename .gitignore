@@ -27,6 +27,9 @@ pom.xml.asc
 .lein-failures
 .clj-kondo/.cache/
 
+#lsp
+.lsp/.cache
+
 # Clojure CLI (tools.deps)
 .clojure/
 clj-kondo/
