@@ -25,7 +25,8 @@ pom.xml.asc
 .lein-repl-history
 .lein-deps-sum
 .lein-failures
-.clj-kondo/.cache/
+**/.clj-kondo/.cache/
+.clj-kondo/.cache/v1
 
 #lsp
 .lsp/.cache
