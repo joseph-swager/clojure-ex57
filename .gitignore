@@ -1,0 +1,55 @@
+# Compiled Files
+*.class
+*.jar
+*.war
+*.ear
+*.jnilib
+*.dll
+*.dylib
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Log Files
+*.log
+
+# Leiningen & deps.edn related
+/target/
+/pom.xml
+pom.xml.asc
+/lib/
+/checkouts/
+.lein-plugins/
+.lein-repl-history
+.lein-deps-sum
+.lein-failures
+.clj-kondo/.cache/
+
+# Clojure CLI (tools.deps)
+.clojure/
+clj-kondo/
+.cpcache/
+
+# Editor files
+*~
+/.nrepl-port
+/.cpcache/
+/.calva/
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
