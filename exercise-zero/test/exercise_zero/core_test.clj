@@ -1,6 +1,6 @@
-(ns exercise-one.core-test
+(ns exercise-zero.core-test
   (:require [clojure.test :refer :all]
-            [exercise-one.core :refer :all]))
+            [exercise-zero.core :refer :all]))
 
 (deftest calculate-tip-test
   (testing "Tip calculation"

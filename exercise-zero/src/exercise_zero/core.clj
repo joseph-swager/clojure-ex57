@@ -1,4 +1,4 @@
-(ns exercise-one.core)
+(ns exercise-zero.core)
 
 (defn parse-number [s]
   (try
@@ -36,7 +36,7 @@
   (execute))
 
 
-;; exercise one sudo code
+;; exercise zero sudo code
 ; Here’s how our tip calculator might look in pseudocode:
 ; TipCalculator
 ;     Initialize billAmount to 0

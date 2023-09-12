@@ -2,5 +2,5 @@
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
  :aliases
  {:run 
-  {:exec-fn exercise-one.core/execute
+  {:exec-fn exercise-zero.core/execute
    :exec-args {}}}}
