@@ -5,5 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]]
   :plugins [[lein-sub "0.3.0"]]
-  :sub ["exercise-one/" "exercise-two/" "exercise-three/" "exercise-twentyfive/"]
+  :sub ["exercise-zero/" "exercise-two/" "exercise-three/" "exercise-twentyfive/"]
   :repl-options {:init-ns clojure-exercise.core})
