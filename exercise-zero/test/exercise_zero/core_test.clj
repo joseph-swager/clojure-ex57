@@ -15,4 +15,3 @@
     (is (= :invalid (parse-number "abcd")))))
 
 ;; ... Further tests for other functions ...
-
