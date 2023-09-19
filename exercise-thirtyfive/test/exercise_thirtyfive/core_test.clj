@@ -2,6 +2,7 @@
   (:require [clojure.test :refer :all]
             [exercise-thirtyfive.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest test-pick-winner
+  (is (contains? #{"Homer" "Bart" "Maggie" "Lisa" "Moe"} (pick-winner ["Homer" "Bart" "Maggie" "Lisa" "Moe"])))
+  (is (contains? #{"Alice"} (pick-winner ["Alice"])))
+  (is (empty? (pick-winner []))))
