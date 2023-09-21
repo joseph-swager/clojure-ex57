@@ -10,7 +10,7 @@
   (println prompt)
   (read-line))
 
-(defn calculate-tip-and-total [bill-amount tip-rate]
+(defn calculate-total-with-tip [bill-amount tip-rate]
   (let [tip (double (* bill-amount (/ tip-rate 100)))
         total (+ bill-amount tip)]
     {:tip tip, :total total}))
@@ -29,7 +29,7 @@
       (println "Please enter a valid number.")
       (System/exit 1))
 
-    (->> (calculate-tip-and-total bill-amount tip-rate)
+    (->> (calculate-total-with-tip bill-amount tip-rate)
          (display-results))))
 
 (defn -main [& _args]

@@ -4,9 +4,9 @@
 
 (deftest calculate-tip-test
   (testing "Tip calculation"
-    (is (= {:tip 6.0, :total 46.0} (calculate-tip-and-total 40.0 15)))
-    (is (= {:tip 0.0, :total 0.0} (calculate-tip-and-total 0 15)))
-    (is (= {:tip 4.5, :total 34.5} (calculate-tip-and-total 30 15)))))
+    (is (= {:tip 6.0, :total 46.0} (calculate-total-with-tip 40.0 15)))
+    (is (= {:tip 0.0, :total 0.0} (calculate-total-with-tip 0 15)))
+    (is (= {:tip 4.5, :total 34.5} (calculate-total-with-tip 30 15)))))
 
 (deftest parse-number-test
   (testing "Parsing numbers"

@@ -24,3 +24,6 @@
 
 (defn -main [& _args]
   (execute))
+
+
+(pick-winner ["Ishamel", "Mustafa", "Both", "None"])

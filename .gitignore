@@ -57,3 +57,6 @@ clj-kondo/
 .Trashes
 ehthumbs.db
 Thumbs.db
+/.lsp/
+/.clj-kondo/
+/exercise-thirtyfive-ui/dart-3.1.2-2.x86_64.rpm
